@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Stand</string>
+    <string name="connection_scheme">Схема соединения обмоток:</string>
+    <string name="menu_title">Меню</string>
+    <string name="next">Далее</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="ok">OK</string>
+    <string name="full_power">Полная мощность:</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="normal_voltage">Номинальное напряжение:</string>
+    <string name="cal_voltage">Кал. напряжения</string>
+    <string name="cal_voltage2">Калибровка напряжения:</string>
+    <string name="cal_instr">Калибровка прибора:</string>
+    <string name="cal_shunts">Кал. шунтов</string>
+    <string name="cal_res">Кал. огр. резисторов</string>
+    <string name="static_error">Статическая ошибка</string>
+    <string name="date_time">Дата/Время</string>
+    <string name="com_interface">Интерфейс связи</string>
+    <string name="options">Опции</string>
+    <string name="service">Служебное</string>
+    <string name="measuring_time">Время измерения</string>
+    <string name="r">R = 0.0000751764</string>
+    <string name="separate">Отдельная</string>
+    <string name="triangle">Треугольник</string>
+    <string name="star">Звезда</string>
+    <string name="star_n">Звезда с нейтралью</string>
+    <string name="current_limitation">Ограничение тока, не более:</string>
+    <string name="expected_resistance">Ожидаемое сопротивление:</string>
+    <string name="res_25">25000.0</string>
+    <string name="u1">U опорн.</string>
+    <string name="u2">Udd10 4-26</string>
+    <string name="u3">Udd10 7-22</string>
+    <string name="u4">Udd8 10-20</string>
+    <string name="u1_v">2.4993</string>
+    <string name="u2_v">0.0124414</string>
+    <string name="u3_v">1.2435</string>
+    <string name="u4_v">0.0124353</string>
+    <string name="selection_limits">Выбор пределов:</string>
+    <string name="back">Назад</string>
+    <string name="start_measure">Запуск измерений</string>
+    <string name="save">Сохранить</string>
+    <string name="go_over">Перейти</string>
+    <string name="stopped">Остановлено</string>
+    <string name="saved">Сохранено!</string>
+    <string name="stop">Стоп</string>
+    <string name="range">Определение диапазона:</string>
+    <string name="repeat">Повторить</string>
+    <string name="choose_scheme">Выбор схемы</string>
+    <string name="results">Результаты измерения:</string>
+    <string name="wrong_pass">Неверный пароль</string>
+    <string name="pass">1234</string>
+    <string-array name="amperage">
+        <item>1А</item>
+        <item>2.5А</item>
+        <item>5А</item>
+        <item>10А</item>
+        <item>20А</item>
+        <item>30А</item>
+        <item>40А</item>
+    </string-array>
+</resources>

@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.ucicke.stand.VoltageCalibrationFragment">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/table_contrast_back"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingLeft="48dp"
+                android:paddingRight="48dp"
+                android:paddingTop="8dp"
+                android:text="@string/u1"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"/>
+
+            <EditText
+                android:id="@+id/voltage1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/lists_back"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                tools:text="2.4993"
+                android:textSize="24sp"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/table_contrast_back"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/u2"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"/>
+
+            <EditText
+                android:id="@+id/voltage2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/lists_back"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:padding="8dp"
+                tools:text="0.0124414"
+                android:textSize="24sp"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/table_contrast_back"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/u3"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"/>
+
+            <EditText
+                android:id="@+id/voltage3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/lists_back"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:padding="8dp"
+                tools:text="1.2435"
+                android:textSize="24sp"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/table_contrast_back"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/u4"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"/>
+
+            <EditText
+                android:id="@+id/voltage4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/lists_back"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:padding="8dp"
+                tools:text="0.0124353"
+                android:textSize="24sp"/>
+
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>
+
